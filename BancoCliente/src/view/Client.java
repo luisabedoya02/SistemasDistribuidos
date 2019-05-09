@@ -118,7 +118,7 @@ public class Client extends JFrame {
 					if(bc.addUser(Integer.parseInt(cedula.getText()),nombre.getText(),login.getText()))
 						clean();
 					else
-						bm.error("Inserción fallida");
+						bm.error("Inserciï¿½n fallida");
 					
 				}
 			});
@@ -172,7 +172,7 @@ public class Client extends JFrame {
 					if(bc.updateUser(Integer.parseInt(cedula.getText()),nombre.getText(),login.getText()))
 						clean();
 					else
-						bm.error("Actualización fallida");
+						bm.error("Actualizaciï¿½n fallida");
 				}
 			});
 		}
@@ -274,7 +274,7 @@ public class Client extends JFrame {
 			jLabel1.setText("Nombre");
 			jLabel = new JLabel();
 			jLabel.setBounds(new java.awt.Rectangle(9,17,48,16));
-			jLabel.setText("Cédula");
+			jLabel.setText("Cï¿½dula");
 			jContentPane = new JPanel();
 			jContentPane.setLayout(null);
 			jContentPane.add(getCedula(), null);
@@ -296,6 +296,9 @@ public class Client extends JFrame {
 		cedula.setText("");
 		nombre.setText("");
 		login.setText("");
+		System.out.println("hola desde otro pc");
+		
+		
 	}
 
 }  //  @jve:decl-index=0:visual-constraint="10,10"
