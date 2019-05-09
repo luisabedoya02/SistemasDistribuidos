@@ -299,6 +299,7 @@ public class Client extends JFrame {
 		nombre.setText("");
 		
 		System.out.println("se modifico de nuevo");
+		
 		login.setText("");
 
 		System.out.println("Luisa escribi� algo");
