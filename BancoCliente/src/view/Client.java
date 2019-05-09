@@ -295,9 +295,11 @@ public class Client extends JFrame {
 	private void clean(){
 		cedula.setText("");
 		nombre.setText("");
+		
+		System.out.println("se modifico de nuevo");
 		login.setText("");
 
-		System.out.println("Luisa escribió algo");
+		System.out.println("Luisa escribiï¿½ algo");
 
 		System.out.println("hola desde otro pc");
 		
