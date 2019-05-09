@@ -296,6 +296,7 @@ public class Client extends JFrame {
 		cedula.setText("");
 		nombre.setText("");
 		login.setText("");
+		System.out.println("Luisa escribió algo");
 	}
 
 }  //  @jve:decl-index=0:visual-constraint="10,10"
