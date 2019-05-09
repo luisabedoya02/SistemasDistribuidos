@@ -293,6 +293,8 @@ public class Client extends JFrame {
 	}
 	
 	private void clean(){
+		
+		System.out.println("Segundo Cambio");
 		cedula.setText("");
 		nombre.setText("");
 		
